@@ -1,0 +1,167 @@
+.inscription {
+  margin: 0;
+}
+.bnficiezDeNos {
+  margin: 0;
+  font-size: var(--h4-size);
+}
+.inscriptionBnficiezDeContainer {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 25px;
+  display: inline-block;
+  max-width: 100%;
+}
+.inscriptionBnficiezDeNosWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-4xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.saisissezVotreAdresse {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 25px;
+}
+.saisissezVotreAdresseEmailWrapper {
+  width: 363px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.email {
+  width: 218px;
+  border: 0;
+  outline: 0;
+  font-family: var(--h6);
+  font-size: var(--font-size-mini);
+  background-color: transparent;
+  height: 28px;
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 28px;
+  color: var(--second-text-color);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.frameGroup,
+.inputformControl {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputformControl {
+  align-self: stretch;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--color-gainsboro-100);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-2xl);
+}
+.frameGroup {
+  flex: 1;
+  flex-direction: column;
+  gap: 28px;
+  max-width: 100%;
+}
+.email1,
+.frameWrapper {
+  font-size: var(--font-size-mini);
+}
+.frameWrapper {
+  width: 459px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs) var(--padding-14xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  color: var(--color-black);
+  font-family: var(--font-montaga);
+}
+.email1 {
+  height: 36px;
+  width: 368px;
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 28px;
+  font-family: var(--font-poller-one);
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: calc(100% - 0px);
+}
+.frameParent,
+.inputformControl1 {
+  overflow: hidden;
+  display: flex;
+  box-sizing: border-box;
+}
+.inputformControl1 {
+  cursor: pointer;
+  border: 1px solid var(--color-mediumslateblue-300);
+  padding: 24px var(--padding-base) var(--padding-6xs);
+  background-color: var(--color-royalblue-200);
+  width: 457px;
+  border-radius: var(--br-8xs);
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  white-space: nowrap;
+  max-width: 100%;
+}
+.inputformControl1:hover {
+  background-color: var(--color-royalblue-100);
+  border: 1px solid var(--color-mediumslateblue-100);
+  box-sizing: border-box;
+}
+.frameParent {
+  width: 100%;
+  position: relative;
+  background-color: var(--light-text-color);
+  background-image: url(C:\Users\dell\Documents\IINSURANCE-WEBSITE-main\public\images-1@2x.png);
+  background-repeat:no-repeat;
+  background-position:left;
+  background-size:contain;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-30xl) 94px 42px;
+  gap: 39px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--h3-size);
+  color: var(--color-black);
+  font-family: var(--font-montaga);
+}
+@media screen and (max-width: 450px) {
+  .inscriptionBnficiezDeContainer {
+    font-size: var(--h5-size);
+    line-height: 20px;
+  }
+  .inputformControl,
+  .inputformControl1 {
+    gap: var(--gap-4xl);
+  }
+  .frameParent {
+    gap: 19px;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

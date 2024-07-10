@@ -1,0 +1,110 @@
+.icnResizeIcnXl {
+  width: 72px;
+  height: 59.3px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.h5FeatureTitle3 {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  font-weight: 700;
+}
+.nowWeHave,
+.soItReally {
+  margin: 0;
+}
+.paragraph {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--h6-size);
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.h5FeatureTitle3Parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.cardItem,
+.colMd4 {
+  flex-direction: column;
+}
+.cardItem {
+  align-self: stretch;
+  border-radius: var(--br-8xs);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-21xl) var(--padding-26xl);
+  gap: var(--gap-11xl);
+}
+.colMd4 {
+  width: 329px;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.colMd4,
+.container,
+.features1,
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.row {
+  width: 1046px;
+  overflow-x: auto;
+  flex-direction: row;
+  gap: var(--gap-11xl);
+}
+.container,
+.features1 {
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-77xl) var(--padding-11xs);
+  box-sizing: border-box;
+}
+.features1 {
+  align-self: stretch;
+  background-color: var(--dark-background-color);
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  text-align: center;
+  font-size: var(--h5-size);
+  color: var(--light-text-color);
+  font-family: var(--h6);
+}
+@media screen and (max-width: 1325px) {
+  .cardItem {
+    height: auto;
+  }
+}
+@media screen and (max-width: 800px) {
+  .features1 {
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .cardItem {
+    gap: var(--gap-mini);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .container {
+    padding-top: var(--padding-43xl);
+    padding-bottom: var(--padding-43xl);
+    box-sizing: border-box;
+  }
+}

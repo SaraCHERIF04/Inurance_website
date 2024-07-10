@@ -1,0 +1,121 @@
+.socitNationaleDes {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+}
+.colMd7 {
+  width: 600px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.antDesignfacebookFilledIcon,
+.antDesigninstagramOutlinedIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.antDesigntwitterOutlinedIcon {
+  height: 19.8px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.colMd6,
+.socialMedia {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.socialMedia {
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-xl);
+}
+.colMd6 {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-43xl);
+}
+.container,
+.div,
+.row {
+  overflow: hidden;
+  display: flex;
+  max-width: 100%;
+}
+.row {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.container,
+.div {
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.container {
+  width: 800px;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-6xl) var(--padding-12xs) var(--padding-6xl) 0;
+}
+.div {
+  width: 80px;
+  margin: 0 !important;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-gray-200);
+  flex-direction: row;
+  padding: 0 var(--padding-160xl);
+  z-index: 2;
+  text-align: left;
+  font-size: var(--h6-size);
+  color: var(--second-text-color);
+  font-family: var(--h6);
+}
+@media screen and (max-width: 450px) {
+  .div {
+    padding-left: var(--padding-70xl);
+    padding-right: var(--padding-70xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .row {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .div {
+    gap: var(--gap-xl);
+    padding-left: var(--padding-25xl);
+    padding-right: var(--padding-25xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .div {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

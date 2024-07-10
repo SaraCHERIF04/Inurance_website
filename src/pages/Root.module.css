@@ -1,0 +1,230 @@
+:root {
+  --h3-size: 1.75rem;
+  --h4-size: 1.5rem;
+  --font-size-mini: 0.875rem;
+  --font-montaga: 'Montaga', serif;
+  --font-poller-one: 'Poller One', sans-serif;
+  --color-black: #000;
+  --muted-color: hsl(0, 0%, 11%);
+  --second-text-color: #040404;
+  --color-whitesmoke-100: #483131;
+  --color-gainsboro-100: #292828;
+  --color-mediumslateblue-300: hsl(240, 16%, 37%);
+  --color-mediumslateblue-100: #4c4256;
+  --color-royalblue-200: hsl(0, 6%, 28%);
+  --color-royalblue-100: #313134;
+  --color-gray-100: hsl(0, 2%, 13%);
+  --light-text-color: #312f2f;
+  --padding-9xs: 10px;
+  --padding-10xs: 16px;
+  --padding-12xs: 24px;
+  --padding-2xl: 32px;
+  --padding-xl: 16px;
+  --padding-smi: 12px;
+  --padding-lgi: 20px;
+  --gap-4xl: 16px;
+  --gap-11xl: 32px;
+  --gap-mini: 8px;
+  --gap-xl: 24px;
+  --gap-lg: 20px;
+  --gap-12xl: 24px;
+  --br-8xs: 8px;
+}
+
+.inscription {
+  margin: 0.5cm;
+  font-size: var(--h3-size);
+  color: var(--color-black);
+  font-weight: bold;
+}
+
+.bnficiezDeNos {
+  margin: 0;
+  font-size: var(--h4-size);
+  color: var(--color-black);
+  font-weight: normal;
+}
+
+.inscriptionBnficiezDeContainer {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 1.5;
+  font-family: var(--font-montaga);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  max-width: 100%;
+}
+
+.inscriptionBanner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-10xs);
+  border-radius: var(--br-8xs);
+  color: #fff;
+  max-width: 100%;
+}
+
+.email,
+.email1,
+.email2,
+.email3,
+.email4,
+.email5,
+.email6,
+.email7 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-poller-one);
+  font-size: var(--font-size-mini);
+  background-color: transparent;
+  height: 40px;
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 1.5;
+  color: var(--color-black);
+  padding: 8px;
+  appearance: none;
+}
+
+.inputformControl,
+.inputformControl1,
+.inputformControl2,
+.inputformControl3,
+.inputformControl4,
+.inputformControl5,
+.inputformControl6,
+.inputformControl7 {
+  width: 100%;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--color-gainsboro-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 8px 12px;
+  margin-bottom: var(--gap-lg);
+}
+
+.inputformControl8 {
+  cursor: pointer;
+  border: 1px solid var(--color-mediumslateblue-300);
+  padding: 10px;
+  background-color: var(--color-royalblue-200);
+  color: #fff;
+  border-radius: var(--br-8xs);
+  margin-top: 0.001cm;
+  margin-bottom: 1cm;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s, border 0.3s;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.inputformControl8:hover {
+  background-color: var(--color-royalblue-100);
+  border: 1px solid var(--color-mediumslateblue-100);
+}
+
+.root {
+  margin: 0;
+  width: 100%;
+  background-color:#fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-12xs);
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+  background-image: url('C:/Users/dell/Documents/IINSURANCE-WEBSITE-main/public/images-1@2x.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+@media screen and (max-width: 500px) {
+  .inscriptionBnficiezDeContainer {
+    font-size: var(--h4-size);
+    line-height: 1.2;
+  }
+  .inputformControl,
+  .inputformControl1,
+  .inputformControl2,
+  .inputformControl3,
+  .inputformControl4,
+  .inputformControl5,
+  .inputformControl6,
+  .inputformControl7,
+  .inputformControl8 {
+    padding: var(--padding-9xs);
+  }
+  .root {
+    padding: var(--padding-10xs);
+  }
+}
+
+.email {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-poller-one);
+  font-size: var(--font-size-mini);
+  background-color: transparent;
+  height: 40px;
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 1.5;
+  color: var(--color-black);
+  padding: 8px;
+  appearance: none;
+}
+
+.email option {
+  color: var(--color-black);
+  background-color: var(--color-whitesmoke-100);
+}
+
+.email::after {
+  content: '▼';
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.inputformControl select {
+  background: var(--color-whitesmoke-100);
+}
+.label {
+  display: block;
+  margin-bottom: 8px; 
+}
+.inputformControl2 {
+  margin-bottom: 16px; /* Espacement entre les champs de formulaire */
+}
+
+.label {
+  display: block;       /* Assure que le label est sur une ligne séparée */
+  margin-bottom: 8px;   /* Espacement entre le label et l'input */
+  font-size: 14px;      /* Taille de police pour le label */
+  color: #333;          /* Couleur du texte du label */
+}
+
+.dateInput {
+  width: 100%;          /* S'assurer que l'input prend la largeur disponible */
+  padding: 8px;         /* Espacement interne de l'input */
+  font-size: 14px;      /* Taille de police de l'input */
+  border: 1px solid #ccc; /* Bordure de l'input */
+  border-radius: 4px;   /* Bordure arrondie */
+  margin-left: 0;       /* Enlever la marge à gauche */
+  margin-left: 0.5cm;
+}
+
+

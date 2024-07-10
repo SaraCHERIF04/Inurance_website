@@ -1,0 +1,69 @@
+.icnResizeIcnXl {
+  width: 72px;
+  height: 59.3px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.h5FeatureTitle1 {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 121px;
+}
+.nowWeHave,
+.soItReally {
+  margin: 0;
+}
+.paragraph {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--h6-size);
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.cardItem,
+.colMd4,
+.h5FeatureTitle1Parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.h5FeatureTitle1Parent {
+  align-self: stretch;
+  padding: 0 var(--padding-12xs);
+  gap: var(--gap-3xs);
+}
+.cardItem,
+.colMd4 {
+  box-sizing: border-box;
+}
+.cardItem {
+  align-self: stretch;
+  height: auto;
+  border-radius: var(--br-8xs);
+  padding: var(--padding-21xl) var(--padding-26xl);
+  gap: var(--gap-11xl);
+}
+.colMd4 {
+  width: 328px;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: 0 var(--padding-12xs);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--h5-size);
+  color: var(--light-text-color);
+  font-family: var(--h6);
+}
+@media screen and (max-width: 450px) {
+  .cardItem {
+    gap: var(--gap-mini);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
